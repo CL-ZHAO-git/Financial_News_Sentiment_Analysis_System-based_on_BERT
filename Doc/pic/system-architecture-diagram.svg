@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dash Interface -->
+  <rect x="240" y="70" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="300" y="105" font-family="Arial" font-size="14" text-anchor="middle">Dash Interface</text>
+  
+  <!-- Dash Callbacks -->
+  <rect x="240" y="200" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="300" y="235" font-family="Arial" font-size="14" text-anchor="middle">Dash Callbacks</text>
+  
+  <!-- MongoDB Database -->
+  <rect x="60" y="320" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="120" y="345" font-family="Arial" font-size="14" text-anchor="middle">MongoDB</text>
+  <text x="120" y="365" font-family="Arial" font-size="14" text-anchor="middle">Database</text>
+  
+  <!-- News Data -->
+  <rect x="500" y="320" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="560" y="355" font-family="Arial" font-size="14" text-anchor="middle">News Data</text>
+  
+  <!-- Sentiment Analysis -->
+  <rect x="680" y="320" width="120" height="60" rx="5" ry="5" fill="#4CAF50" stroke="#333" stroke-width="2"/>
+  <text x="740" y="355" font-family="Arial" font-size="14" text-anchor="middle">Sentiment Analysis</text>
+  
+  <!-- News Crawler -->
+  <rect x="860" y="320" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="920" y="355" font-family="Arial" font-size="14" text-anchor="middle">News Crawler</text>
+  
+  <!-- Public Account Data -->
+  <rect x="500" y="440" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="560" y="475" font-family="Arial" font-size="14" text-anchor="middle">Public Account Data</text>
+  
+  <!-- Public Account Crawler -->
+  <rect x="680" y="440" width="120" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="740" y="475" font-family="Arial" font-size="14" text-anchor="middle">Public Account Crawler</text>
+  
+  <!-- Blue Dashed Box -->
+  <rect x="440" y="280" width="240" height="250" rx="10" ry="10" fill="none" stroke="#0088cc" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Arrows -->
+  <!-- Dash Interface <-> Dash Callbacks -->
+  <line x1="300" y1="130" x2="300" y2="200" stroke="#333" stroke-width="2"/>
+  <polygon points="300,200 295,190 305,190" fill="#333"/>
+  <line x1="290" y1="200" x2="290" y2="130" stroke="#333" stroke-width="2"/>
+  <polygon points="290,130 285,140 295,140" fill="#333"/>
+  
+  <!-- Dash Callbacks <-> MongoDB -->
+  <line x1="240" y1="230" x2="120" y2="320" stroke="#333" stroke-width="2"/>
+  <polygon points="120,320 124,310 130,316" fill="#333"/>
+  <line x1="135" y1="320" x2="255" y2="245" stroke="#333" stroke-width="2"/>
+  <polygon points="255,245 245,245 250,235" fill="#333"/>
+  
+  <!-- Dash Callbacks <- News Data -->
+  <line x1="500" y1="350" x2="330" y2="240" stroke="#333" stroke-width="2"/>
+  <polygon points="330,240 335,250 340,245" fill="#333"/>
+  
+  <!-- MongoDB <- News Data -->
+  <line x1="500" y1="360" x2="180" y2="360" stroke="#333" stroke-width="2"/>
+  <polygon points="180,360 190,355 190,365" fill="#333"/>
+  
+  <!-- News Data <- Sentiment Analysis -->
+  <line x1="680" y1="350" x2="620" y2="350" stroke="#333" stroke-width="2"/>
+  <polygon points="620,350 630,345 630,355" fill="#333"/>
+  
+  <!-- Sentiment Analysis <- News Crawler -->
+  <line x1="860" y1="350" x2="800" y2="350" stroke="#333" stroke-width="2"/>
+  <polygon points="800,350 810,345 810,355" fill="#333"/>
+  
+  <!-- Public Account Data <- Public Account Crawler -->
+  <line x1="680" y1="470" x2="620" y2="470" stroke="#333" stroke-width="2"/>
+  <polygon points="620,470 630,465 630,475" fill="#333"/>
+</svg>
